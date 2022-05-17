@@ -1,6 +1,7 @@
 package com.example.meong_gae;
 
 import android.os.Bundle;
+import android.view.MenuItem;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -24,10 +25,10 @@ public class HomeActivity extends AppCompatActivity {
         binding = ActivityHomeBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        Toolbar toolbar = (Toolbar)findViewById(R.id.my_toolbar);
+        Toolbar toolbar = binding.myToolbar;  //(Toolbar)findViewById(R.id.my_toolbar); 대신
         setSupportActionBar(toolbar);
-
-        BottomNavigationView navView = findViewById(R.id.nav_view);
+        
+        BottomNavigationView navView = findViewById(R.id.nav_view);   //bottom bar ID
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(
@@ -36,6 +37,9 @@ public class HomeActivity extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_activity_home);
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(binding.navView, navController);
+
+    //툴바랑 페이지 연결해야 하는데,,,
+
     }
 
 }

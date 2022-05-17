@@ -12,13 +12,13 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
+        android:id="@+id/navigation_reserve"
         android:name="com.example.meong_gae.ui.reserve.ReserveFragment"
         android:label="@string/title_reservation"
         tools:layout="@layout/fragment_reserve" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
+        android:id="@+id/navigation_mypage"
         android:name="com.example.meong_gae.ui.mypage.MypageFragment"
         android:label="@string/title_mypage"
         tools:layout="@layout/fragment_mypage" />
@@ -27,5 +27,5 @@
         android:id="@+id/navigation_board"
         android:name="com.example.meong_gae.ui.board.BoardFragment"
         android:label="@string/title_board"
-        tools:layout="@layout/fragment_mypage" />
+        tools:layout="@layout/fragment_board" />
 </navigation>
