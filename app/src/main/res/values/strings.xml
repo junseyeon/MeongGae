@@ -5,4 +5,5 @@
     <string name="title_reservation">수업예약</string>
     <string name="title_mypage">마이페이지</string>
     <string name="title_board">게시판</string>
+    <string name="title_setting">설정</string>
 </resources>
