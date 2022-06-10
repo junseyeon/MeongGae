@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_margin="20dp"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:contentDescription="예약 디테일 닫기"
+        android:id="@+id/reserve_detail_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:background="@android:color/transparent"
+        android:src="@drawable/close"/>
+
+    <TextView
+        android:id="@+id/reserve_detail_classN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginTop="25dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:text="대형견 훈련반"/>
+
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/reserve_detail_dateTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        tools:text="2022-05-02 09:00~18:00"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/reserve_detail_teacher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        tools:text="전세연 강사"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"
+        android:id="@+id/reserve_detail_classN2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        tools:text="대형견 훈련반"/>
+    <TextView
+        android:textSize="15sp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/reserve_detail_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        tools:text="예약인원: 최대 수강인원 0/6"/>
+
+    <TextView
+        android:layout_marginTop="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:text="예약 취소 가능 시간"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="수업시간 1시간 30분 전까지 예약 가능"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="수업 시간 24시간 전까지 취소 가능"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+     <TextView
+         android:layout_marginTop="30dp"
+         android:textSize="20sp"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:textStyle="bold"
+         android:textColor="@color/black"
+         android:text="수업 소개"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/reserve_detail_classDetail"
+        android:textColor="@color/black"
+        android:text="내용이 없습니다."/>
+
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="강사 프로필"/>
+    <TextView
+        android:layout_marginTop="15dp"
+        android:textSize="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="자기소개"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"
+        android:id="@+id/reserve_detail_tInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="자기소개 내용이 없습니다."/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="주요이력"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"
+        android:id="@+id/reserve_detail_tHistory"
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="주요 이력 내용이 없습니다."/>
+
+
+
+    <Button
+        android:layout_marginTop="90dp"
+        android:background="@color/blue"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="예약"
+        android:textSize="15sp"
+        android:id="@+id/bt_reserve"/>
+</LinearLayout>

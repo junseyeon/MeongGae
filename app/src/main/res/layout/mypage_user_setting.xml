@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".MypageUserSetting">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+        <!--  툴바 설정하기ㅣ
+        -->
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/tools"
+            android:background="#ffffff"
+            ></androidx.appcompat.widget.Toolbar>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="회원정보 수정"
+            android:textSize="19sp"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/profile_edit"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="프로필변경"
+            android:layout_marginLeft="40dp"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:layout_gravity="center_vertical">
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="230dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/next"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/eamil_edit"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="이메일변경"
+            android:layout_marginLeft="40dp"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:layout_gravity="center_vertical"/>
+
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="230dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/next"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/pwd_edit"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="비밀번호변경"
+            android:layout_marginLeft="40dp"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:layout_gravity="center_vertical"/>
+
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="215dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/next"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

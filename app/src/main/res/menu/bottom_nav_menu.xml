@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/tickets"
+        android:title="@string/title_ticket" />
+
+    <item
+        android:id="@+id/navigation_reserve"
+        android:icon="@drawable/calendar"
+        android:title="@string/title_reservation" />
+
+    <item
+        android:id="@+id/navigation_mypage"
+        android:icon="@drawable/user"
+        android:title="@string/title_mypage" />
+
+    <item
+        android:id="@+id/navigation_board"
+        android:icon="@drawable/notice"
+        android:title="@string/title_board" />
+
+</menu>

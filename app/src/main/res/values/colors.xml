@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue">#3562FF</color>
+
+        <!-- Palette -->
+        <color name="transparent">#00000000</color>
+        <color name="alpha10_black">#19000000</color>
+        <color name="alpha70_black">#b2000000</color>
+        <color name="alpha80_black">#cc000000</color>
+        <color name="alpha90_black">#e5000000</color>
+        <color name="main_gray">#E0E0E0</color>
+        <color name="main_gray3">#b7b7b7</color>
+        <color name="main_color">#3A4F57</color>
+        <color name="main_disabled_top_color">#4ADAD4</color>
+        <color name="main_text_color">@color/all_on_surface_high</color>
+        <color name="main_line_color">#D4D2D2</color>
+        <color name="main_popup_line_color">#E7E7E7</color>
+
+        <!-- Switch -->
+
+        <!-- Home -->
+        <color name="home_button_1">#5CB580</color>
+        <color name="home_button_2">#59B5A7</color>
+        <color name="home_button_3">#5A9EB7</color>
+        <color name="home_button_4">#5B79B6</color>
+        <color name="home_button_5">#8B8BF6</color>
+        <color name="backgroungsignupcheck">#889EEE</color>
+
+
+        <!-- Main -->
+        <color name="main_button_textColor_normal">#FFFFFF</color>
+        <color name="main_button_textColor_pressed">#04615D</color>
+
+        <!-- Library / Purchase -->
+        <color name="text_button_normal">#63666e</color>
+        <color name="circle_progress_foreground_color">@color/main_color</color>
+        <color name="cover_background_color">@color/all_surface_variant</color>
+
+        <!-- Viewer -->
+        <color name="highlight_yellow">#66E7D87D</color>
+        <color name="menu_highlight_yellow">#E7D87D</color>
+        <color name="menu_highlight_green">#BAD063</color>
+        <color name="menu_highlight_blue">#7FB7C6</color>
+        <color name="menu_highlight_magenta">#C192C9</color>
+        <color name="menu_highlight_red">#DD95A0</color>
+        <color name="viewer_background_color1">#FFFFFF</color>
+        <color name="viewer_background_color2">#F6EFDC</color>
+        <color name="viewer_background_color3">#CECAC0</color>
+        <color name="viewer_background_color4">#DBDBDB</color>
+        <color name="viewer_background_color5">#B0E0E6</color>
+        <color name="viewer_background_color6">#C9E3FE</color>
+        <color name="viewer_background_color7">#2C4946</color>
+        <color name="viewer_background_color8">#2B2B2A</color>
+        <color name="viewer_font_color1">#3E3E3E</color>
+        <color name="viewer_font_color2">#4E3B28</color>
+        <color name="viewer_font_color3">#5B4A3A</color>
+        <color name="viewer_font_color4">#2B2B2A</color>
+        <color name="viewer_font_color5">#3E3E3E</color>
+        <color name="viewer_font_color6">#3E3E3E</color>
+        <color name="viewer_font_color7">#C7D9D6</color>
+        <color name="viewer_font_color8">#CECECB</color>
+        <color name="viewer_annotation_bg">#FDFBF1</color>
+        <color name="viewer_search_highlight">@color/colorAccent</color>
+
+        <!-- Unknown -->
+        <color name="colorPrimary">#5D8E44</color>
+        <color name="colorPrimaryLight">#669C4B</color>
+        <color name="colorPrimaryDark">#4D7538</color>
+        <color name="colorSecondary">#454545</color>
+        <color name="colorAccent">#1B84FA</color>
+
+        <!-- ALL -->
+        <color name="all_ripple_surface">#E0E0E0</color>
+        <color name="all_surface">#FFFFFF</color>
+        <color name="all_surface_variant">#FAFAFA</color>
+        <color name="all_on_surface">#031012</color>
+        <color name="all_on_surface_high">#DE031012</color>
+        <color name="all_on_surface_medium">#A0031012</color>
+        <color name="all_on_surface_disabled">#61031012</color>
+        <color name="all_on_primary">#FFF</color>
+        <color name="all_warn">#ed1b2e</color>
+        <color name="all_divider_gray">#dee6e9</color>
+
+        <!--app specific-->
+        <color name="main_theme_text">#ed1b2e</color>
+        <color name="main_background">@color/colorPrimary</color>
+        <color name="main_background_pressed">@color/colorPrimaryLight</color>
+        <color name="main_negative_background">#c8c8c8</color>
+        <color name="dialog_title_background">#fafafa</color>
+        <color name="dialog_line">#d3d3d3</color>
+        <color name="main_text">#171717</color>
+        <color name="main_inactive_gray">#AAAAAA</color>
+        <color name="main_background_gray">#e3e6ea</color>
+
+        <!-- Main -->
+        <color name="main_logo_background">#00000000</color>
+
+        <!-- Progress -->
+        <color name="progress_background">#33808080</color>
+        <color name="progress_progress">@color/colorAccent</color>
+
+
+</resources>

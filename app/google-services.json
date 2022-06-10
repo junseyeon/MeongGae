@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1062309690212",
+    "firebase_url": "https://meong-gae-default-rtdb.firebaseio.com",
+    "project_id": "meong-gae",
+    "storage_bucket": "meong-gae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1062309690212:android:9369b67aeeadea488b9871",
+        "android_client_info": {
+          "package_name": "com.example.meong_gae"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1062309690212-7l5vb7ioh42ftn3rllpaol3qhk15sfeg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.meong_gae",
+            "certificate_hash": "6242b5761d21ef7dbd0abf297352b47d94b44abb"
+          }
+        },
+        {
+          "client_id": "1062309690212-bh12s5m0f90tg99osnc386ts634vpdbg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYPr7Ja9I_kQavWsKecHb9yDNYwH1pPPE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1062309690212-bh12s5m0f90tg99osnc386ts634vpdbg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

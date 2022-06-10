@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dogsize">
+        <item>소형</item>
+        <item>중형</item>
+        <item>대형</item>
+    </string-array>
+</resources>
