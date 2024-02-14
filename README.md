@@ -5,7 +5,7 @@
 
 ## 🎞️ 시연영상 
 
-<img src="https://github.com/junseyeon/MeongGae/assets/44864717/27b4c64a-ed7a-4f3c-a253-fa284b552472" alt="프로젝트 시연 영상" width="400">
+<img src="https://github.com/junseyeon/MeongGae/assets/44864717/27b4c64a-ed7a-4f3c-a253-fa284b552472" alt="프로젝트 시연 영상" width="300">
 
 시연 영상을 클릭하여 프로젝트의 기능과 사용법을 확인하세요.
 
