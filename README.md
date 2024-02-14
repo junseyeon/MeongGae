@@ -3,8 +3,8 @@
 
 애견 유치원 회원들을 위한 편리한 어플리케이션입니다. 어플을 통해 예약, 일정 확인, 커뮤니티 등 다양한 기능을 이용할 수 있습니다.
 
-## 🎞️ 시연영상 
-
+## 🎞️ 시연
+<img width="611" alt="image" src="https://github.com/junseyeon/MeongGae/assets/44864717/a1f316c6-abfd-49b3-aa25-84f2b7a206bc"> <br>
 <img src="https://github.com/junseyeon/MeongGae/assets/44864717/27b4c64a-ed7a-4f3c-a253-fa284b552472" alt="프로젝트 시연 영상" width="300">
 
 시연 영상을 클릭하여 프로젝트의 기능과 사용법을 확인하세요.
